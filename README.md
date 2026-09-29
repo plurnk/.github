@@ -1,4 +1,3 @@
-# Welcome to Plurnk
-The Preposterously Lean Universal Resource NetworK
+# Plurnk organization profile
 
-## What is "Plurnk"?
+The public introduction lives in [profile/README.md](profile/README.md).
