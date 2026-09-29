@@ -1,0 +1,32 @@
+name: Bug report
+description: Something plurnk does wrong.
+title: "fix: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: A vulnerability goes to the Security tab, never a public issue. `/share <folder>` writes the workspace's record; it is unredacted, so review it before attaching.
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Output of `plurnk-service --version` and `plurnk --version`.
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model route
+      description: The `<provider>/<model>` in use.
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected and actual
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+name: Feature request
+description: Something plurnk should do.
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What plurnk should do
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
